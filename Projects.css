@@ -1,0 +1,37 @@
+﻿
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    padding: 0.6rem;
+
+}
+
+.project {
+    width: 100%;
+    border: solid;
+    height: 10rem;
+    background-color: #D9E9CF45;
+    border-radius: 0.4rem;
+    border-color: var(--secondary-color);
+    box-shadow: 0.3rem 0.2rem 0 0 #96A78D;
+    padding: 0.1em;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.project-img {
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    top: 0.3rem;
+}
+
+@media (max-width: 540px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
