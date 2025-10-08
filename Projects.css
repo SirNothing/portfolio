@@ -28,6 +28,10 @@
     height: 5rem;
     float: left;
     top: 0.3rem;
+    background-color: #96A78D;
+    border-radius: 0.4rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
 }
 
 @media (max-width: 840px) {
