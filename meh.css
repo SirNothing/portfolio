@@ -16,3 +16,14 @@
     border-radius: 10rem;
     box-shadow: rgb(128, 128, 128) 10px 5px;
 }
+
+@media (max-width: 600px) {
+    .AImage {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+    }
+}
