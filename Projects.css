@@ -5,11 +5,11 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
     padding: 0.6rem;
-
+    overflow-wrap:anywhere;
 }
 
 .project {
-    width: 100%;
+    width: auto;
     border: solid;
     height: 10rem;
     background-color: #D9E9CF45;
@@ -30,7 +30,13 @@
     top: 0.3rem;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 840px) {
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 665px) {
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }

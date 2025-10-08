@@ -1,7 +1,18 @@
 ﻿#meh {
-    padding-left: 5rem;
-    padding-right:5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     align-content: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.AImage {
+    float: left;
+    width: 10rem;
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10rem;
+    box-shadow: rgb(128, 128, 128) 10px 5px;
 }
