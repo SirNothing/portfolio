@@ -18,7 +18,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: "width";
+    font-variation-settings: normal;
 }
 
 h1, h2 {
@@ -52,7 +52,7 @@ body {
     position: fixed;
     top: 4.5rem;
     left: 0.2rem;
-    opacity: 100;
+    opacity: 1;
     transition: opacity 350ms linear;
 }
 
@@ -102,7 +102,7 @@ aside {
   margin-top: 0.4em;
   margin-left: 0.4em;
   margin-right: 0.4em;
-  border-radius: 3px, 4px;
+  border-radius: 3px 4px;
 }
 
 .nav_lista li:hover {
@@ -212,6 +212,9 @@ footer {
   #upper-nav {
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
   }
 
     #nav_lista2 {
@@ -235,7 +238,7 @@ footer {
         margin-top: 0.4em;
         margin-left: 0.4em;
         margin-right: 0.4em;
-        border-radius: 3px, 4px;
+        border-radius: 3px 4px;
     }
 
         #nav_lista2 li:hover {
